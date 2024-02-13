@@ -13,8 +13,12 @@
   }
 }
 
+.kittyPic {
+  height: 200px;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #e0738f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +30,27 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App-animated {
+  height: 10%;
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  /* min-width: max-content; */
+}
+
+.clickable {
+  background-color: #d62a55;
+  border-radius: 30%;
+  margin: 20px;
+  padding: 10px;
+}
+
+.big-heading {
+  font-size: 100px;
 }
 
 @keyframes App-logo-spin {
